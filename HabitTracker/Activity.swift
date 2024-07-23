@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct Activity: Codable, Identifiable, Equatable {
     var id = UUID()
     var title: String

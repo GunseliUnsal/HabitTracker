@@ -13,6 +13,8 @@
 		878F61C92C4EAD01008349BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878F61C82C4EAD01008349BA /* Preview Assets.xcassets */; };
 		878F61D02C4EB48D008349BA /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F61CF2C4EB48D008349BA /* Activity.swift */; };
 		878F61D22C4EB546008349BA /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F61D12C4EB546008349BA /* Activities.swift */; };
+		87F9D82D2C4EDC6F003BC1D2 /* AddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9D82C2C4EDC6F003BC1D2 /* AddActivity.swift */; };
+		87F9D82F2C4EE2E9003BC1D2 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9D82E2C4EE2E9003BC1D2 /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		878F61C82C4EAD01008349BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		878F61CF2C4EB48D008349BA /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		878F61D12C4EB546008349BA /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		87F9D82C2C4EDC6F003BC1D2 /* AddActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivity.swift; sourceTree = "<group>"; };
+		87F9D82E2C4EE2E9003BC1D2 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				878F61C12C4EACFF008349BA /* HabitTrackerApp.swift */,
 				878F61C32C4EACFF008349BA /* ContentView.swift */,
+				87F9D82E2C4EE2E9003BC1D2 /* ActivityView.swift */,
+				87F9D82C2C4EDC6F003BC1D2 /* AddActivity.swift */,
 				878F61CF2C4EB48D008349BA /* Activity.swift */,
 				878F61D12C4EB546008349BA /* Activities.swift */,
 				878F61C52C4EAD01008349BA /* Assets.xcassets */,
@@ -145,8 +151,10 @@
 			files = (
 				878F61D22C4EB546008349BA /* Activities.swift in Sources */,
 				878F61D02C4EB48D008349BA /* Activity.swift in Sources */,
+				87F9D82D2C4EDC6F003BC1D2 /* AddActivity.swift in Sources */,
 				878F61C42C4EACFF008349BA /* ContentView.swift in Sources */,
 				878F61C22C4EACFF008349BA /* HabitTrackerApp.swift in Sources */,
+				87F9D82F2C4EE2E9003BC1D2 /* ActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
